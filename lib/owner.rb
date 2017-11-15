@@ -59,6 +59,7 @@ attr_reader :species
 
     @pets.each do |pet_type, animals|
       animals.each do |animal| animal.mood = "nervous"
+      end
       binding.pry
     end
     @pets.clear
