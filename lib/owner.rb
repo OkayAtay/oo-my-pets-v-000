@@ -65,6 +65,7 @@ attr_reader :species
   end
 
   def list_pets
+    binding.pry
     @pets.each do {|pet| pet.count}
       "I have 2 fish, 3 dog(s), and 1 cat(s)."
   end
