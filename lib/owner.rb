@@ -65,6 +65,6 @@ attr_reader :species
   end
 
   def list_pets
-    @pets.each {|pet| pet.count}
+    @pets.each do {|pet| pet.count}
   end
 end
