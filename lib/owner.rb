@@ -57,7 +57,7 @@ attr_reader :species
 
   def sell_pets
     binding.pry
-    @pets.each {|type, pets| @pets[key][value] }
+    @pets.each {|key, value| @pets[key][value] }
     @pets.clear
   end
 
