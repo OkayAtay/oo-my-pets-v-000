@@ -61,7 +61,6 @@ attr_reader :species
         animal.mood = "nervous"
       end
     end
-    @pets.clear
   end
 
   def list_pets
